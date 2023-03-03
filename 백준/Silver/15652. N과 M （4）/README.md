@@ -1,10 +1,10 @@
-# [Silver III] N과 M (3) - 15651 
+# [Silver III] N과 M (4) - 15652 
 
-[문제 링크](https://www.acmicpc.net/problem/15651) 
+[문제 링크](https://www.acmicpc.net/problem/15652) 
 
 ### 성능 요약
 
-메모리: 31256 KB, 시간: 1976 ms
+메모리: 31256 KB, 시간: 64 ms
 
 ### 분류
 
@@ -17,11 +17,16 @@
 <ul>
 	<li>1부터 N까지 자연수 중에서 M개를 고른 수열</li>
 	<li>같은 수를 여러 번 골라도 된다.</li>
+	<li>고른 수열은 비내림차순이어야 한다.
+	<ul>
+		<li>길이가 K인 수열 A가 A<sub>1</sub> ≤ A<sub>2</sub> ≤ ... ≤ A<sub>K-1</sub> ≤ A<sub>K</sub>를 만족하면, 비내림차순이라고 한다.</li>
+	</ul>
+	</li>
 </ul>
 
 ### 입력 
 
- <p>첫째 줄에 자연수 N과 M이 주어진다. (1 ≤ M ≤ N ≤ 7)</p>
+ <p>첫째 줄에 자연수 N과 M이 주어진다. (1 ≤ M ≤ N ≤ 8)</p>
 
 ### 출력 
 
